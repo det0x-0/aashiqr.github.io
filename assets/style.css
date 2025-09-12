@@ -1,14 +1,79 @@
+/* General body styling */
 body {
-  background-color: #f0f8ff;  /* light blue background */
-  font-family: Arial, sans-serif;
-  color: #333333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fdf6f0;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  color: darkblue;
+/* Header */
+header {
+  background-color: #2e8b57;
+  color: white;
   text-align: center;
+  padding: 2rem 1rem;
 }
 
-a {
-  color: #ff4500;
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
 }
+
+/* Main content */
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Sections */
+h2 {
+  color: #2e8b57;
+  margin-top: 2rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #2e8b57;
+  font-weight: bold;
+}
+
+/* Links */
+a {
+  color: #2e8b57;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #2e8b57;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+/* Icons */
+.contact i {
+  margin-right: 0.5rem;
+}
+
