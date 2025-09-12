@@ -1,3 +1,7 @@
+---
+layout: default
+title: Aashiq's Home page
+---
 # Hi, I’m Aashiq 👋
 
 Welcome to my portfolio website!
