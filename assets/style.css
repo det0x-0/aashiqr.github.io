@@ -1,0 +1,14 @@
+body {
+  background-color: #f0f8ff;  /* light blue background */
+  font-family: Arial, sans-serif;
+  color: #333333;
+}
+
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+a {
+  color: #ff4500;
+}
